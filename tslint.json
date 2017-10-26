@@ -1,0 +1,38 @@
+{
+	"extends": "tslint:recommended",
+	"rules": {
+		"indent": [
+			true,
+			"tabs"
+		],
+		"quotemark": [
+			true,
+			"single"
+		],
+		"space-before-function-paren": [
+			true,
+			"always"
+		],
+		"object-literal-sort-keys": false,
+		"ordered-imports": [
+			true,
+			{
+				"import-sources-order": "any",
+				"named-imports-order": "any"
+			}
+		],
+		"variable-name": [
+			true,
+			"check-format",
+			"allow-leading-underscore"
+		],
+		"trailing-comma": [
+			false
+		],
+		"curly": false,
+		"max-classes-per-file": [
+			false
+		],
+		"no-var-requires": false
+	}
+}
