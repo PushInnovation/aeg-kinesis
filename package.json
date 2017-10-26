@@ -1,5 +1,5 @@
 {
-  "name": "@adexchange/aeg-kinesis",
+  "name": "@push_innovation/aeg-kinesis",
   "version": "0.0.1",
   "description": "Kinesis client",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
   "author": "Ad Exchange Group",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdExchangeGrp/aeg-kinesis.git"
+    "url": "https://github.com/PushInnovation/aeg-kinesis.git"
   },
   "license": "UNLICENSED",
   "scripts": {
