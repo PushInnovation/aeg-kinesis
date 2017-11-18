@@ -14,9 +14,9 @@
   version "2.2.43"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.43.tgz#03c54589c43ad048cbcbfd63999b55d0424eec27"
 
-"@types/moment-timezone@^0.2.34":
-  version "0.2.35"
-  resolved "https://registry.yarnpkg.com/@types/moment-timezone/-/moment-timezone-0.2.35.tgz#3fbbcb035e66aa5589a9198a6eec8d4dd9a701a5"
+"@types/moment-timezone@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@types/moment-timezone/-/moment-timezone-0.5.1.tgz#2e8df25a100d40afc06b9e76ce43c458584ef610"
   dependencies:
     moment ">=2.14.0"
 
