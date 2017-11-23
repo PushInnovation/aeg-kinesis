@@ -130,7 +130,7 @@ export default class Kinesis extends EventEmitter {
 
 			if (batches.length > 1) {
 
-				await BBPromise.delay(2000);
+				await BBPromise.delay(1000);
 
 			}
 
