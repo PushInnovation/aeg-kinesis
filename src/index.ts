@@ -124,9 +124,15 @@ export default class Kinesis extends EventEmitter {
 
 		const batches: IKinesisEvent[][] = chunk(kinesisRecords, 500);
 
-		return BBPromise.each(batches, (batch) => {
+		return BBPromise.each(batches, async (batch) => {
 
-			return _writeBatchToStream(batch);
+			await _writeBatchToStream(batch);
+
+			if (batches.length > 1) {
+
+				await BBPromise.delay(2000);
+
+			}
 
 		});
 
