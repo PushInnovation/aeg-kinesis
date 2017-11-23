@@ -1,6 +1,6 @@
 {
   "name": "@push_innovation/aeg-kinesis",
-  "version": "0.0.1",
+  "version": "0.0.16",
   "description": "Kinesis client",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
